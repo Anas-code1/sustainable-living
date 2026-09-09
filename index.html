@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TerraNest — Sustainable & Eco-Friendly Living</title>
+  <meta name="description" content="The comprehensive eco-living platform for conscious households. Discover verified non-toxic swaps, hyperlocal zero-waste refill hubs, and transparent footprints that make going green simple and rewarding.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Section 1: Sticky Header / Nav -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#hero" class="logo" id="logo-link">
+        <div class="logo-mark">T</div>
+        <span>TerraNest</span>
+      </a>
+      
+      <ul class="nav-links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#stats">Impact</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <div class="nav-cta">
+        <a href="#contact" class="btn btn-primary" id="header-cta-btn">Join the Movement</a>
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <svg viewBox="0 0 24 24" fill="none" stroke-width="2" stroke-linecap="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Nav Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#features">Features</a>
+      <a href="#how-it-works">How It Works</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#stats">Impact</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+      <a href="#contact" class="btn btn-primary" style="margin-top: 0.5rem; text-align: center;">Join the Movement</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Section 2: Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-glow"></div>
+      <div class="hero-glow-2"></div>
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="pill-badge">Modern Household Stewardship</div>
+            <h1>Live Lightly and Sustainably <span>Without the Overwhelm</span></h1>
+            <p>The comprehensive eco-living platform for conscious households. Discover verified non-toxic swaps, hyperlocal zero-waste refill hubs, and transparent footprints that make going green simple and rewarding.</p>
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary" id="hero-cta-btn">Join the Movement</a>
+              <a href="#how-it-works" class="btn btn-secondary" id="hero-secondary-btn">See How It Works</a>
+            </div>
+            <div class="hero-trust">
+              <div class="trust-avatars">
+                <div class="trust-avatar">A</div>
+                <div class="trust-avatar">B</div>
+                <div class="trust-avatar">C</div>
+                <div class="trust-avatar">D</div>
+              </div>
+              <div>
+                <strong>Trusted by 10,000+</strong> ambitious members worldwide
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero Visual: Pure CSS / SVG Interface Visual -->
+          <div class="hero-visual">
+            <div class="visual-canvas">
+              <div class="visual-header">
+                <div class="visual-dots">
+                  <div class="visual-dot"></div>
+                  <div class="visual-dot"></div>
+                  <div class="visual-dot"></div>
+                </div>
+                <div class="visual-title-bar"></div>
+                <div class="visual-dot" style="background: var(--primary);"></div>
+              </div>
+              <div class="visual-body">
+                <div class="visual-card">
+                  <div class="visual-card-icon">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7"/></svg>
+                  </div>
+                  <div class="visual-card-text">
+                    <div class="visual-card-title">Zero-Waste Pantry & Refill Audit</div>
+                    <div class="visual-card-subtitle">Active & fully optimized</div>
+                  </div>
+                  <div class="visual-badge">100%</div>
+                </div>
+
+                <div class="visual-card">
+                  <div class="visual-card-icon">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                  </div>
+                  <div class="visual-card-text">
+                    <div class="visual-card-title">Verified Non-Toxic Vetting</div>
+                    <div class="visual-card-subtitle">Real-time automation active</div>
+                  </div>
+                  <div class="visual-badge">Live</div>
+                </div>
+
+                <div class="visual-card">
+                  <div class="visual-card-icon">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                  </div>
+                  <div class="visual-card-text">
+                    <div class="visual-card-title">Hyperlocal Circular Directory</div>
+                    <div class="visual-card-subtitle">Peak performance verified</div>
+                  </div>
+                  <div class="visual-badge">Sync</div>
+                </div>
+              </div>
+
+              <div class="floating-stat-pill">
+                <span>🌱 142,000+ lbs of plastic waste diverted</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Features / Services -->
+    <section id="features" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="pill-badge">Core Capabilities</div>
+          <h2>Engineered Specifically for Your Success</h2>
+          <p>Everything you need to eliminate friction, maximize output, and achieve real results.</p>
+        </div>
+        <div class="grid-3">
+          
+        <div class="card">
+          <div class="card-icon-wrap"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6l3 18h12l3-18H3zM9 6V4a3 3 0 016 0v2"/></svg></div>
+          <h3>Zero-Waste Pantry & Refill Audit</h3>
+          <p>Practical, step-by-step guides to swapping single-use kitchen and laundry plastics for circular refill options.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon-wrap"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg></div>
+          <h3>Verified Non-Toxic Vetting</h3>
+          <p>Every recommendation is rigorously tested for microplastics, PFAS, synthetic fragrance, and greenwashing.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon-wrap"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0zM15 11a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div>
+          <h3>Hyperlocal Circular Directory</h3>
+          <p>Locate local bulk food co-ops, municipal composting drop-offs, and tool repair libraries in your neighborhood.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon-wrap"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg></div>
+          <h3>Clean Home Energy Planner</h3>
+          <p>Unlock state and federal clean energy rebates for induction stoves, heat pumps, and solar installations.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon-wrap"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/></svg></div>
+          <h3>Seasonal Zero-Waste Cooking</h3>
+          <p>Flavorful recipes that utilize full vegetable cuts and leftovers to slash kitchen food waste by over 40%.</p>
+        </div>
+
+        <div class="card">
+          <div class="card-icon-wrap"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"/></svg></div>
+          <h3>Kid-Friendly Eco Activities</h3>
+          <p>Engaging family DIY projects and composting guides that instill lifelong eco-values in the next generation.</p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: How It Works / About -->
+    <section id="how-it-works" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div class="pill-badge">Simple 3-Step Process</div>
+          <h2>How TerraNest Works</h2>
+          <p>Getting started takes less than 3 minutes. Here is how we make transformation effortless.</p>
+        </div>
+        <div class="steps-grid">
+          
+        <div class="step-card">
+          <div class="step-number">1</div>
+          <h3>Take the 3-Minute Home Audit</h3>
+          <p>Assess your household’s highest impact areas—from kitchen packaging to heating and cooling.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">2</div>
+          <h3>Implement High-Value Swaps</h3>
+          <p>Receive simple, affordable swap guides that save money while cutting non-biodegradable waste.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">3</div>
+          <h3>Track Your Community Impact</h3>
+          <p>See your real-time diverted plastic metrics and plant certified native trees with every eco milestone.</p>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Social Proof / Testimonials -->
+    <section id="testimonials" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="pill-badge">Member Stories</div>
+          <h2>Loved by Users Around the Globe</h2>
+          <p>Read real experiences from everyday members who leveled up with TerraNest.</p>
+        </div>
+        <div class="grid-3">
+          
+        <div class="testimonial-card">
+          <div class="stars">
+            <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <p class="testimonial-quote">“TerraNest made going eco-friendly feel practical instead of preachy. We reduced our weekly trash from three full bins to less than half a bag!”</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">EB</div>
+            <div>
+              <div class="author-name">Emily & Tyler Bennett</div>
+              <div class="author-role">Suburban Household of 4</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">
+            <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <p class="testimonial-quote">“Finally, a resource that cuts through greenwashing. The vetted product reviews and repair guides saved our family over $600 this year.”</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">MS</div>
+            <div>
+              <div class="author-name">Mateo Silva</div>
+              <div class="author-role">Landscape Architect</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="stars">
+            <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg><svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+          </div>
+          <p class="testimonial-quote">“The seasonal zero-waste meal guides changed how our whole kitchen operates. Our kids now lead our weekly composting drop-off!”</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">RG</div>
+            <div>
+              <div class="author-name">Rachel Greenfield</div>
+              <div class="author-role">Elementary School Educator</div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- Section 6: Stats / Impact -->
+    <section id="stats" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div class="pill-badge">Proven Results</div>
+          <h2>Real Impact Measured in Real Numbers</h2>
+          <p>Join thousands of empowered members experiencing verified results every single day.</p>
+        </div>
+        <div class="stats-grid">
+          
+          <div class="stat-box">
+            <div class="stat-value">142k lbs</div>
+            <div class="stat-label">Plastic Diverted from Landfills</div>
+          </div>
+
+          <div class="stat-box">
+            <div class="stat-value">48,000+</div>
+            <div class="stat-label">Eco-Conscious Households</div>
+          </div>
+
+          <div class="stat-box">
+            <div class="stat-value">320k+</div>
+            <div class="stat-label">Native Trees Planted</div>
+          </div>
+
+          <div class="stat-box">
+            <div class="stat-value">42%</div>
+            <div class="stat-label">Average Waste Reduction in 90 Days</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7: FAQ Accordion -->
+    <section id="faq" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div class="pill-badge">Got Questions?</div>
+          <h2>Frequently Asked Questions</h2>
+          <p>Everything you need to know about TerraNest, onboarding, and privacy.</p>
+        </div>
+        <div class="faq-container">
+          
+          <div class="faq-item active">
+            <button class="faq-question" type="button" aria-expanded="true">
+              <span>Do I have to discard and replace everything in my home at once?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Not at all! In fact, the most sustainable item is the one you already own. We guide you to make mindful swaps gradually as items naturally run out.</p>
+            </div>
+          </div>
+
+          <div class="faq-item ">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>How does TerraNest verify that products aren’t greenwashed?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Our research team evaluates full lifecycle assessments, ingredient disclosures, third-party certifications (B-Corp, Cradle to Cradle), and post-consumer packaging.</p>
+            </div>
+          </div>
+
+          <div class="faq-item ">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Is sustainable living realistic for busy families on a budget?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Absolutely. Many of our core recommendations—like bulk refilling, low-waste meal plans, and home energy audits—actually lower your monthly household expenses.</p>
+            </div>
+          </div>
+
+          <div class="faq-item ">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>How are the native trees planted and tracked?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>We partner with accredited reforestation nonprofits like Eden Reforestation Projects. You receive verifiable GPS coordinates for tree clusters planted through your membership.</p>
+            </div>
+          </div>
+
+          <div class="faq-item ">
+            <button class="faq-question" type="button" aria-expanded="false">
+              <span>Can I find local refill stations and eco events in my city?</span>
+              <svg class="faq-chevron" viewBox="0 0 20 20" fill="currentColor">
+                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <p>Yes! Our community-updated directory includes thousands of local refill stores, farmers markets, and compost hubs across North America and Europe.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 8: Final CTA Banner & Integrated Contact Form -->
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <div class="cta-banner">
+          <div class="cta-banner-grid">
+            <div>
+              <div class="pill-badge">Get In Touch</div>
+              <h2>Join the Movement for a Cleaner Tomorrow</h2>
+              <p>Small, consistent household habits add up to massive global change. Start your sustainable living journey with TerraNest today.</p>
+              <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                <a href="#contact" class="btn btn-primary">Join the Movement</a>
+                <a href="#features" class="btn btn-secondary">Explore Features</a>
+              </div>
+            </div>
+
+            <!-- Frontend Contact Form -->
+            <div class="contact-card">
+              <h3 style="margin-bottom: 0.5rem; font-size: 1.25rem;">Send Us a Message</h3>
+              <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 1.25rem;">Have questions or want a personal walkthrough? Drop us a note.</p>
+              
+              <form id="contact-form">
+                <div class="form-group">
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" placeholder="Alex Morgan" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" placeholder="alex@example.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="message">Message</label>
+                  <textarea id="message" name="message" rows="3" placeholder="Tell us how we can help you..." required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">Join the Movement</button>
+                <div id="form-status" class="form-status"></div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Section 9: Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo">
+            <div class="logo-mark">T</div>
+            <span>TerraNest</span>
+          </div>
+          <p>Practical Eco-Friendly Living for Modern Homes. Purpose-built for modern convenience and tangible results.</p>
+          <div class="social-icons">
+            <a href="#" class="social-icon-btn" aria-label="Twitter">
+              <svg viewBox="0 0 24 24"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2zM4 2a2 2 0 110 4 2 2 0 010-4z"/></svg>
+            </a>
+            <a href="#" class="social-icon-btn" aria-label="GitHub">
+              <svg viewBox="0 0 24 24"><path d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links-group">
+          <div class="footer-col">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="#features">Features</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#stats">Impact</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Resources</h4>
+            <ul>
+              <li><a href="#faq">Help Center</a></li>
+              <li><a href="#features">API Documentation</a></li>
+              <li><a href="#testimonials">Customer Stories</a></li>
+              <li><a href="#how-it-works">Community</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Legal</h4>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+              <li><a href="#">Security & Compliance</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 TerraNest. All rights reserved. Built with precision.</div>
+        <div>Designed for environmentally-conscious households.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
