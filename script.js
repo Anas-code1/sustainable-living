@@ -56,16 +56,16 @@ document.addEventListener('DOMContentLoaded', () => {
       submitBtn.disabled = true;
 
       setTimeout(() => {
-        formStatus.textContent = "Thanks — we'll be in touch!";
+        formStatus.innerHTML = "Thanks — we'll be in touch! You can also reach us directly at <a href='mailto:mahmadmhaleem@gmail.com' style='text-decoration:underline; font-weight:700; color:inherit;'>mahmadmhaleem@gmail.com</a> or <a href='tel:+923330866754' style='text-decoration:underline; font-weight:700; color:inherit;'>+92 333 0866754</a>.";
         formStatus.style.display = 'block';
         contactForm.reset();
         submitBtn.textContent = originalText;
         submitBtn.disabled = false;
 
-        // Auto-dismiss message after 6 seconds
+        // Auto-dismiss message after 8 seconds
         setTimeout(() => {
           formStatus.style.display = 'none';
-        }, 6000);
+        }, 8000);
       }, 500);
     });
   }
