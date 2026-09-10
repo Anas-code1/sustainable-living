@@ -1,21 +1,21 @@
 // Vanilla Interactive Controller
 document.addEventListener('DOMContentLoaded', () => {
   // Mobile Hamburger Menu
-  const hamburger = document.getElementById('hamburger-btn');
+  const hamburgerBtn = document.getElementById('hamburger-btn');
   const mobileMenu = document.getElementById('mobile-menu');
-  
-  if (hamburger && mobileMenu) {
-    hamburger.addEventListener('click', () => {
-      const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
-      hamburger.setAttribute('aria-expanded', !isExpanded);
+
+  if (hamburgerBtn && mobileMenu) {
+    hamburgerBtn.addEventListener('click', () => {
+      const isExpanded = hamburgerBtn.getAttribute('aria-expanded') === 'true';
+      hamburgerBtn.setAttribute('aria-expanded', !isExpanded);
       mobileMenu.classList.toggle('active');
     });
 
-    // Close on link click
+    // Close menu when clicking internal nav links
     mobileMenu.querySelectorAll('a').forEach(link => {
       link.addEventListener('click', () => {
         mobileMenu.classList.remove('active');
-        hamburger.setAttribute('aria-expanded', 'false');
+        hamburgerBtn.setAttribute('aria-expanded', 'false');
       });
     });
   }
@@ -28,16 +28,18 @@ document.addEventListener('DOMContentLoaded', () => {
       questionBtn.addEventListener('click', () => {
         const isActive = item.classList.contains('active');
         
-        // Close others
+        // Close other open accordions
         faqItems.forEach(other => {
-          if (other !== item) other.classList.remove('active');
+          if (other !== item) {
+            other.classList.remove('active');
+            const btn = other.querySelector('.faq-question');
+            if (btn) btn.setAttribute('aria-expanded', 'false');
+          }
         });
 
-        if (isActive) {
-          item.classList.remove('active');
-        } else {
-          item.classList.add('active');
-        }
+        // Toggle current
+        item.classList.toggle('active', !isActive);
+        questionBtn.setAttribute('aria-expanded', (!isActive).toString());
       });
     }
   });
@@ -56,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
       submitBtn.disabled = true;
 
       setTimeout(() => {
-        formStatus.innerHTML = "Thanks — we'll be in touch! You can also reach us directly at <a href='mailto:mahmadmhaleem@gmail.com' style='text-decoration:underline; font-weight:700; color:inherit;'>mahmadmhaleem@gmail.com</a> or <a href='tel:+923330866754' style='text-decoration:underline; font-weight:700; color:inherit;'>+92 333 0866754</a>.";
+        formStatus.innerHTML = "Thanks — we'll be in touch! You can also reach Zainab Raza directly at <a href='mailto:zainab.raza91@gmail.com' style='text-decoration:underline; font-weight:700; color:inherit;'>zainab.raza91@gmail.com</a> or <a href='tel:+923125894172' style='text-decoration:underline; font-weight:700; color:inherit;'>+92 312 5894172</a>.";
         formStatus.style.display = 'block';
         contactForm.reset();
         submitBtn.textContent = originalText;
